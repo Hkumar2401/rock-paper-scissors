@@ -40,6 +40,11 @@ h2{
     margin: 20px 10px;
 }
 
+/* Hiding buttons after selection */
+.hiding-buttons{
+    visibility: hidden;
+}
+
 
 @media only screen and (max-width: 991px){
     .div-vs{
