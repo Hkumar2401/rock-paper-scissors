@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: #FFF5E4;
+}
+
+.container{
+    border: 2px solid #850E35;
+    background-color: #FFC4C4;
+    
+}
+
+
+h1{
+    margin: 50px 0;
+    color: #850E35;
+}
+
+h2{
+    color: #850E35;
+    margin-top: 20px;
+}
+
+.div-vs{
+    margin: 15% 0;
+}
+
+.result{
+    margin: 50px 0 20px;
+}
+
+.images, .imagesComputer{
+    width: 300px;
+    height: 300px;
+    margin: 20px 15px 0;
+}
+
+
+
+.select-player1{
+    margin: 20px 10px;
+}
+
+
+@media only screen and (max-width: 991px){
+    .div-vs{
+        margin: 0;
+    }
+}
