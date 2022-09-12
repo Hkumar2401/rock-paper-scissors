@@ -64,18 +64,21 @@ function makeComputerChoice(computerChoice) {
             document.querySelector(".imagesComputer").setAttribute("src", "images/rock.jpeg");
             count2 = 1;
             compare();
+            buttonHider();
             break;
 
         case "paper":
             document.querySelector(".imagesComputer").setAttribute("src", "images/paper.jpeg");
             count2 = 2;
             compare();
+            buttonHider();
             break;
 
         case "scissors":
             document.querySelector(".imagesComputer").setAttribute("src", "images/scissors.jpeg");
             count2 = 3;
             compare();
+            buttonHider();
             break;
 
         default:
@@ -120,6 +123,13 @@ function compare() {
     else{
         document.querySelector(".result").innerHTML = "Invalid!";
 
+    }
+}
+
+function buttonHider(){
+        for(var k=0; k<3; k++){
+        var hidButtons = document.querySelectorAll(".select-player1")[k];
+        hidButtons.classList.add("hiding-buttons");
     }
 }
 
